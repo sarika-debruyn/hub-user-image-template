@@ -34,7 +34,7 @@ jobs:
         DOCKER_REGISTRY: "ghcr.io"
         IMAGE_NAME: "ghcr.io/${{ github.repository_owner }}/bootcamp-amazon-q-image"
         NO_PUSH: ${{ github.event_name == 'pull_request' }}
-        LATEST_TAG_OFF: true
+        # LATEST_TAG_OFF: true
         REPO_DIR: /srv/repo
 
     # Lets us monitor disks getting full as images get bigger over time
