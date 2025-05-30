@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+mamba install -y -c conda-forge pytorch torchvision tensorflow
+jupyter lab build
