@@ -11,6 +11,9 @@ dependencies:
   - python=3.10
   # Everyone wants to use nbgitpuller for everything
   - nbgitpuller=1.1.*
+  - pytorch
+  - torchvision
+  - tensorflow
 
   # ─────────────────────────────────────────────────────────────────────────────
   # Amazon Q Developer JupyterLab extension
